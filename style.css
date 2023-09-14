@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+
+main {
+  height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.card {
+  background-color: hsl(216, 50%, 16%);
+  width: 350px;
+  border-radius: 10px;
+}
+
+.card-image img {
+  width: 100%;
+  padding: 20px;
+  border-radius: 8%;
+}
+
+.card-info {
+  padding-left: 20px;
+}
+
+.card-header {
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.card-text {
+  color: hsl(215, 21%, 45%);
+  font-size: 20px;
+  margin-top: 15px;
+  font-weight: 400;
+}
+
+.card-icon {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+
+
+.ethereum {
+  color: hsl(178, 100%, 50%);
+  
+}
+
+.ethereum span {
+  margin-left: 3px;
+  margin-bottom: 3px;
+}
+
+
+.clock {
+  color:hsl(215, 51%, 70%) ;
+  float: right;
+  padding-right: 20px;
+}
+
+.clock span {
+  margin-left: 3px;
+}
+
+.hr {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  width: 310px;
+  height: 1px;
+  background-color: hsl(215, 51%, 70%);
+}
+
+.card-footer {
+  padding: 20px;
+  position: relative;
+
+}
+
+.card-footer img {
+  width: 50px;
+}
+
+.card-footer span {
+  color: hsl(215, 21%, 45%);
+  position: absolute;
+  top: 35px;
+  right: 80px;
+  font-weight: 300;
+  
+}
+
+.card-footer span strong {
+  color: white;
+}
